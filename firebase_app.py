@@ -4,7 +4,7 @@ from firebase_admin import firestore
 import dataclasses
 
 # Use a service account.
-cred = credentials.Certificate('firebase-project-app-380804-firebase-adminsdk-vhy7s-3289a3903b.json')
+cred = credentials.Certificate('firebase-credentials.json')
 
 app = firebase_admin.initialize_app(cred)
 

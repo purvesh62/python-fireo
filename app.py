@@ -3,7 +3,7 @@ from fireo.models import Model
 from fireo.fields import TextField, NumberField, IDField
 
 fireo.connection(
-    from_file="firebase-project-app-380804-firebase-adminsdk-vhy7s-3289a3903b.json")
+    from_file="firebase-credentials.json")
 
 
 class User(Model):
